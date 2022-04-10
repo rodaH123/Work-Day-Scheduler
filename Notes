@@ -28,3 +28,52 @@ const hours = () => {
 console.log(hours)))
 
 var currentHour = Date.now().getHours();
+
+Java Practice Notes
+
+
+var date = new date()
+console(date)
+
+
+moment().startOf('hour').fromNow(); 
+
+const hours = () => {
+    const hours = []
+    const dateStart = moment()
+    const dateEnd = moment().add(1, ‘hours')
+    while (dateEnd.diff(dateStart, ‘hours') >= 0) {
+     hours.push(dateStart.format(‘D'))
+     dateStart.add(1, ‘hours')
+    }
+    return hours
+   }
+  
+  
+console.log(hours)))
+
+  //This is the time array
+  var timearray = [
+    9am
+   10 am
+   11am
+   12pm 
+   1PM
+   2PM
+   3PM
+   4PM
+   5pm
+   ]
+
+   getHours()
+
+   const hour = new hour()
+console.log('hello')
+let Xmas95 = new Date('December 25, 1995 23:15:30');
+let hours = Xmas95.getHours();
+
+console.log(hours);
+
+$(document).ready function
+
+var data= new hour();

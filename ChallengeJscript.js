@@ -1,10 +1,10 @@
-let Xmas95 = new Date('December 25, 1995 23:15:30');
-let hours = Xmas95.getHours();
+$(document).ready(function () {
+    
+    //Moment.js code for current date and time
+    let NowMoment = moment().format("MMMM Do YYYY");
+    let displayDate = document.getElementById("currentDay");
 
-console.log(hours);
+    displayDate.innerHTML = NowMoment;
+    let currentHour = moment().format("HH");
+}
 
-$(document).ready function
-
-var data= new hour();
-
- 
