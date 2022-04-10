@@ -1,0 +1,30 @@
+
+//This is the time array
+var timearray = [
+ 9am
+10 am
+11am
+12pm 
+1PM
+2PM
+3PM
+4PM
+5pm
+]
+
+
+const hours = () => {
+    const hours = []
+    const dateStart = moment()
+    const dateEnd = moment().add(1, ‘hours')
+    while (dateEnd.diff(dateStart, ‘hours') >= 0) {
+     hours.push(dateStart.format(‘D'))
+     dateStart.add(1, ‘hours')
+    }
+    return hours
+   }
+  
+  
+console.log(hours)))
+
+var currentHour = Date.now().getHours();
