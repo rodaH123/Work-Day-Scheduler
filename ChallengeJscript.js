@@ -10,7 +10,7 @@ $(document).ready(function () {
 )
 
  // Button function to clear local storage and clear contents
- $("#clearFieldsBtn").click(function (event) {
+ $("#Btn saveBtn").click(function (event) {
     event.preventDefault;
     $("textarea").val("");
     localStorage.clear();
